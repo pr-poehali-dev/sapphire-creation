@@ -27,7 +27,7 @@ export default function Hero() {
 
       <div className="relative z-10 text-center text-white">
         <img
-          src="https://cdn.poehali.dev/projects/c1ddd35b-7831-4583-9ede-f928d7709396/bucket/bf0e1e11-c413-4a22-9a79-851de091341c.jpg"
+          src="https://cdn.poehali.dev/projects/c1ddd35b-7831-4583-9ede-f928d7709396/bucket/14d1eefd-6b9d-410e-b73f-c3b7bf310937.png"
           alt="ПРО 100 АВТО"
           className="mx-auto mb-6 w-64 md:w-80 lg:w-96 h-auto"
           style={{ filter: "brightness(0) invert(1)" }}

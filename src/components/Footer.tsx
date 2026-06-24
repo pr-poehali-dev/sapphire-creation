@@ -79,7 +79,7 @@ export default function Footer() {
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 sm:gap-0">
               <img
-                src="https://cdn.poehali.dev/projects/c1ddd35b-7831-4583-9ede-f928d7709396/bucket/bf0e1e11-c413-4a22-9a79-851de091341c.jpg"
+                src="https://cdn.poehali.dev/projects/c1ddd35b-7831-4583-9ede-f928d7709396/bucket/14d1eefd-6b9d-410e-b73f-c3b7bf310937.png"
                 alt="ПРО 100 АВТО"
                 className="mt-4 sm:mt-6 lg:mt-10 w-[60vw] sm:w-[50vw] lg:w-[40vw] max-w-lg h-auto"
                 style={{ filter: "brightness(0) invert(1)" }}
