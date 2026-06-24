@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 interface HeaderProps {
   className?: string;
 }
@@ -8,12 +10,12 @@ export default function Header({ className }: HeaderProps) {
       <div className="flex justify-between items-center">
         <div className="text-white text-sm uppercase tracking-wide font-bold">ПРО 100 АВТО</div>
         <nav className="flex gap-8">
-          <a
-            href="#about"
+          <Link
+            to="/how-we-work"
             className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
           >
             Как мы работаем
-          </a>
+          </Link>
           <a
             href="#contact"
             className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
