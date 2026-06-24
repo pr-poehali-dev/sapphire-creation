@@ -18,20 +18,20 @@ export default function Promo() {
       <div className="fixed top-[-10vh] left-0 h-[120vh] w-full">
         <motion.div style={{ y }} className="relative w-full h-full">
           <img
-            src="/images/spiral-circles.jpg"
-            alt="Abstract spiral circles"
+            src="https://cdn.poehali.dev/projects/c1ddd35b-7831-4583-9ede-f928d7709396/files/e2fad832-0813-41d4-a29e-ca9b58ccbd7f.jpg"
+            alt="Доставка автомобилей морем"
             className="w-full h-full object-cover"
           />
         </motion.div>
       </div>
 
       <h3 className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg">
-        Анатомия возможностей
+        Доставка под ключ
       </h3>
 
       <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-5xl z-10">
-        Каждая секция — рамка для твоей истории. Формируй её, миксуй и позволь контенту
-        литься в неожиданные паттерны, заставляя листать дальше.
+        От аукциона до вашего города — морем и сушей. Растаможка, документы и логистика
+        полностью на нас. Вам остаётся только встретить свой автомобиль.
       </p>
     </div>
   );
