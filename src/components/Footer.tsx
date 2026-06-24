@@ -32,10 +32,16 @@ export default function Footer() {
               <div className="flex flex-col gap-1 sm:gap-2">
                 <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Контакты</h3>
                 <a
-                  href="tel:+70000000000"
+                  href="tel:+79530888954"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
-                  Позвонить
+                  +7 (953) 088-89-54 Денис
+                </a>
+                <a
+                  href="tel:+79010087847"
+                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
+                >
+                  +7 (901) 008-78-47 Артём
                 </a>
                 <a
                   href="https://t.me/pro100auto23"
@@ -44,12 +50,6 @@ export default function Footer() {
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
                   Telegram
-                </a>
-                <a
-                  href="#"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  WhatsApp
                 </a>
               </div>
             </div>
