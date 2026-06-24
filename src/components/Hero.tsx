@@ -26,9 +26,12 @@ export default function Hero() {
       </motion.div>
 
       <div className="relative z-10 text-center text-white">
-        <p className="text-sm md:text-base uppercase tracking-[0.3em] mb-4 opacity-80">
-          ПРО 100 АВТО
-        </p>
+        <img
+          src="https://cdn.poehali.dev/projects/c1ddd35b-7831-4583-9ede-f928d7709396/bucket/bf0e1e11-c413-4a22-9a79-851de091341c.jpg"
+          alt="ПРО 100 АВТО"
+          className="mx-auto mb-6 w-64 md:w-80 lg:w-96 h-auto"
+          style={{ filter: "brightness(0) invert(1)" }}
+        />
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
           АВТО ИЗ АЗИИ
         </h1>
