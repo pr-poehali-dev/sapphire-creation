@@ -38,7 +38,9 @@ export default function Footer() {
                   Позвонить
                 </a>
                 <a
-                  href="#"
+                  href="https://t.me/pro100auto23"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
                   Telegram
