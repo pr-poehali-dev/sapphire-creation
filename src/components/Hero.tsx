@@ -60,14 +60,7 @@ export default function Hero() {
           >
             Наш MAX
           </a>
-          <a
-            href="https://www.instagram.com/pro100auto23?igsh=ZmdnYjhuNmZ6anlp"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-transparent text-white border border-white px-8 py-3 text-sm uppercase tracking-wide font-semibold transition-all duration-300 hover:bg-white hover:text-black cursor-pointer"
-          >
-            Наш Instagram
-          </a>
+
         </div>
       </div>
     </div>
