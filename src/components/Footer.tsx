@@ -78,9 +78,12 @@ export default function Footer() {
               </div>
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 sm:gap-0">
-              <h1 className="text-[14vw] sm:text-[12vw] lg:text-[11vw] leading-[0.8] mt-4 sm:mt-6 lg:mt-10 text-white font-bold tracking-tight">
-                ПРО 100 АВТО
-              </h1>
+              <img
+                src="https://cdn.poehali.dev/projects/c1ddd35b-7831-4583-9ede-f928d7709396/bucket/bf0e1e11-c413-4a22-9a79-851de091341c.jpg"
+                alt="ПРО 100 АВТО"
+                className="mt-4 sm:mt-6 lg:mt-10 w-[60vw] sm:w-[50vw] lg:w-[40vw] max-w-lg h-auto"
+                style={{ filter: "brightness(0) invert(1)" }}
+              />
               <p className="text-white text-sm sm:text-base">{new Date().getFullYear()} ПРО 100 АВТО</p>
             </div>
           </div>
