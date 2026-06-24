@@ -16,12 +16,12 @@ export default function Header({ className }: HeaderProps) {
           >
             Как мы работаем
           </Link>
-          <a
-            href="#contact"
+          <Link
+            to="/contacts"
             className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
           >
             Контакты
-          </a>
+          </Link>
         </nav>
       </div>
     </header>
