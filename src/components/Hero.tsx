@@ -35,7 +35,7 @@ export default function Hero() {
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90 mb-8">
           Подбираем и привозим автомобили из Японии, Южной Кореи и Китая — под ключ
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center flex-wrap">
           <a
             href="https://vk.ru/club237696604"
             target="_blank"
@@ -51,6 +51,14 @@ export default function Hero() {
             className="inline-block bg-transparent text-white border border-white px-8 py-3 text-sm uppercase tracking-wide font-semibold transition-all duration-300 hover:bg-white hover:text-black cursor-pointer"
           >
             Наш Telegram
+          </a>
+          <a
+            href="https://max.ru/join/Qurnyz0wT4djkRqd3ODo0mXWHA88VsZn4iac0BHvFGo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-transparent text-white border border-white px-8 py-3 text-sm uppercase tracking-wide font-semibold transition-all duration-300 hover:bg-white hover:text-black cursor-pointer"
+          >
+            Наш MAX
           </a>
         </div>
       </div>
