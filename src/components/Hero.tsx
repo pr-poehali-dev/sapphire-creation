@@ -32,9 +32,17 @@ export default function Hero() {
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
           АВТО ИЗ АЗИИ
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
+        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90 mb-8">
           Подбираем и привозим автомобили из Японии, Южной Кореи и Китая — под ключ
         </p>
+        <a
+          href="https://vk.ru/club237696604"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-white text-black border border-white px-8 py-3 text-sm uppercase tracking-wide font-semibold transition-all duration-300 hover:bg-transparent hover:text-white cursor-pointer"
+        >
+          Наш ВКонтакте
+        </a>
       </div>
     </div>
   );
