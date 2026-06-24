@@ -59,6 +59,22 @@ export default function Footer() {
                 >
                   Instagram
                 </a>
+                <a
+                  href="https://vk.ru/club237696604"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
+                >
+                  ВКонтакте
+                </a>
+                <a
+                  href="https://max.ru/join/Qurnyz0wT4djkRqd3ODo0mXWHA88VsZn4iac0BHvFGo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
+                >
+                  MAX
+                </a>
               </div>
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 sm:gap-0">
