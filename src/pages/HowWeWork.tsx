@@ -106,7 +106,7 @@ export default function HowWeWork() {
             href="tel:+79530888954"
             className="inline-block border border-white text-white px-8 py-4 text-sm uppercase tracking-wide font-semibold transition-all duration-300 hover:bg-white hover:text-black text-center"
           >
-            Позвонить Денису
+            Позвонить нам
           </a>
         </motion.div>
       </div>
