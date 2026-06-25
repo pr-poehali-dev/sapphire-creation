@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Footer() {
   return (
     <div
@@ -10,12 +12,12 @@ export default function Footer() {
             <div className="flex shrink-0 gap-8 sm:gap-12 lg:gap-20 flex-wrap">
               <div className="flex flex-col gap-2 sm:gap-3">
                 <h3 className="mb-2 sm:mb-3 uppercase text-neutral-400 text-xs sm:text-sm tracking-widest">Услуги</h3>
-                <a
-                  href="#japan"
+                <Link
+                  to="/japan"
                   className="inline-block border border-white text-white px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base uppercase tracking-wide font-semibold transition-all duration-300 hover:bg-white hover:text-black"
                 >
                   Автомобили из Японии
-                </a>
+                </Link>
                 <a
                   href="#china"
                   className="inline-block border border-white text-white px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base uppercase tracking-wide font-semibold transition-all duration-300 hover:bg-white hover:text-black"
