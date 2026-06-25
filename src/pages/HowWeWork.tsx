@@ -103,7 +103,7 @@ export default function HowWeWork() {
             Оставить заявку в Telegram
           </a>
           <a
-            href="tel:+79530888954"
+            href="tel:+79010087847"
             className="inline-block border border-white text-white px-8 py-4 text-sm uppercase tracking-wide font-semibold transition-all duration-300 hover:bg-white hover:text-black text-center"
           >
             Позвонить нам
