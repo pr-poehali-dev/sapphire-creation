@@ -8,25 +8,25 @@ export default function Footer() {
         <div className="h-[400px] sm:h-[600px] lg:h-[800px] sticky top-[calc(100vh-400px)] sm:top-[calc(100vh-600px)] lg:top-[calc(100vh-800px)]">
           <div className="bg-neutral-900 py-4 sm:py-6 lg:py-8 px-4 sm:px-6 h-full w-full flex flex-col justify-between">
             <div className="flex shrink-0 gap-8 sm:gap-12 lg:gap-20 flex-wrap">
-              <div className="flex flex-col gap-1 sm:gap-2">
-                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Услуги</h3>
+              <div className="flex flex-col gap-2 sm:gap-3">
+                <h3 className="mb-2 sm:mb-3 uppercase text-neutral-400 text-xs sm:text-sm tracking-widest">Услуги</h3>
                 <a
                   href="#japan"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
+                  className="inline-block border border-white text-white px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base uppercase tracking-wide font-semibold transition-all duration-300 hover:bg-white hover:text-black"
                 >
-                  Авто из Японии
-                </a>
-                <a
-                  href="#korea"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Авто из Кореи
+                  Автомобили из Японии
                 </a>
                 <a
                   href="#china"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
+                  className="inline-block border border-white text-white px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base uppercase tracking-wide font-semibold transition-all duration-300 hover:bg-white hover:text-black"
                 >
-                  Авто из Китая
+                  Автомобили из Китая
+                </a>
+                <a
+                  href="#korea"
+                  className="inline-block border border-white text-white px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base uppercase tracking-wide font-semibold transition-all duration-300 hover:bg-white hover:text-black"
+                >
+                  Автомобили из Южной Кореи
                 </a>
               </div>
               <div className="flex flex-col gap-1 sm:gap-2">
