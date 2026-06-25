@@ -11,8 +11,7 @@ export default function Featured() {
       <div className="flex-1 text-left lg:h-[800px] flex flex-col justify-center lg:mr-12 lg:order-1">
         <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600">Прозрачно от выбора до доставки</h3>
         <p className="text-2xl lg:text-4xl mb-8 text-neutral-900 leading-tight">
-          Сами участвуем в аукционах Японии, Кореи и Китая, проверяем каждый автомобиль по истории и состоянию
-          и берём на себя все таможенные хлопоты. Вы получаете машину мечты по честной цене.
+          Участвуем в аукционах Японии и лично проверяем каждый автомобиль. В Корее и Китае работают наши собственные представительства. Берём на себя все таможенные хлопоты — вы получаете машину мечты по честной цене.
         </p>
         <button className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide">
           Подобрать авто
