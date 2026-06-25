@@ -28,10 +28,10 @@ export default function Hero() {
       <div className="relative z-10 text-center text-white">
 
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          АВТО ИЗ АЗИИ
+          ПРО 100 АВТО
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90 mb-8">
-          Участвуем в японских аукционах, собственные представительства в Корее и Китае — привозим под ключ
+          Проверенный партнёр по подбору автомобилей из-за рубежа
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center flex-wrap">
           <a
