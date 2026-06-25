@@ -31,7 +31,7 @@ export default function Hero() {
           АВТО ИЗ АЗИИ
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90 mb-8">
-          Подбираем и привозим автомобили из Японии, Южной Кореи и Китая — под ключ
+          Участвуем в японских аукционах, собственные представительства в Корее и Китае — привозим под ключ
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center flex-wrap">
           <a
