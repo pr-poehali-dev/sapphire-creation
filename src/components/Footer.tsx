@@ -36,9 +36,7 @@ export default function Footer() {
                 <a
                   href="tel:+79530888954"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  +7 (953) 088-89-54 Денис
-                </a>
+                >+7 (953) 088-89-54</a>
                 <a
                   href="tel:+79010087847"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
