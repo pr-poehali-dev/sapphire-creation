@@ -59,7 +59,7 @@ export default function HowWeWork() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <p className="uppercase text-neutral-400 text-sm tracking-[0.3em] mb-4">ПРО 100 АВТО</p>
+          <p className="uppercase text-neutral-400 text-sm tracking-[0.3em] mb-4">ПРО100Авто</p>
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight mb-16 leading-tight">
             КАК МЫ<br />РАБОТАЕМ
           </h1>
