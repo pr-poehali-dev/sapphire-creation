@@ -40,9 +40,7 @@ export default function Footer() {
                 <a
                   href="tel:+79010087847"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  +7 (901) 008-78-47 Артём
-                </a>
+                >+7 (901) 008-78-47 </a>
                 <a
                   href="https://t.me/pro100auto23"
                   target="_blank"
