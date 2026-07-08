@@ -38,11 +38,11 @@ export default function Contacts() {
             <div className="flex flex-col gap-3">
               <a href="tel:+79530888954" className="flex items-center gap-3 text-white hover:text-neutral-400 transition-colors text-lg">
                 <Icon name="Phone" size={18} />
-                <span>+7 (953) 088-89-54 — Денис</span>
+                <span>+7 (953) 088-89-54</span>
               </a>
               <a href="tel:+79010087847" className="flex items-center gap-3 text-white hover:text-neutral-400 transition-colors text-lg">
                 <Icon name="Phone" size={18} />
-                <span>+7 (901) 008-78-47 — Артём</span>
+                <span>+7 (901) 008-78-47</span>
               </a>
             </div>
           </motion.div>
