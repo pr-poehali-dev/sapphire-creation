@@ -27,9 +27,7 @@ export default function Hero() {
 
       <div className="relative z-10 text-center text-white">
 
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ПРО 100 АВТО
-        </h1>
+        <h1 className="text-5xl md:text-7xl lg:text-8xl tracking-tight mb-6 font-medium">ПРО100Авто</h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90 mb-8">
           Проверенный партнёр по подбору автомобилей из-за рубежа
         </p>
