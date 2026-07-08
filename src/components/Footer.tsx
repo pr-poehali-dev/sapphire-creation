@@ -18,12 +18,12 @@ export default function Footer() {
                 >
                   Автомобили из Японии
                 </Link>
-                <a
-                  href="#china"
+                <Link
+                  to="/china"
                   className="inline-block border border-white text-white px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base uppercase tracking-wide font-semibold transition-all duration-300 hover:bg-white hover:text-black"
                 >
                   Автомобили из Китая
-                </a>
+                </Link>
                 <a
                   href="#korea"
                   className="inline-block border border-white text-white px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base uppercase tracking-wide font-semibold transition-all duration-300 hover:bg-white hover:text-black"
