@@ -65,7 +65,7 @@ export default function Japan() {
             <Icon name="ArrowLeft" size={16} />
             На главную
           </Link>
-          <p className="uppercase text-neutral-400 text-xs sm:text-sm tracking-[0.3em] mb-3">ПРО 100 АВТО</p>
+          <p className="uppercase text-neutral-400 text-xs sm:text-sm tracking-[0.3em] mb-3">ПРО100Авто</p>
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight leading-tight">
             АВТОМОБИЛИ<br />ИЗ ЯПОНИИ
           </h1>
