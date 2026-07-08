@@ -25,7 +25,8 @@ const documents = [
   },
   {
     title: "Регистрация на сайте ЭПТС",
-    description: "Необходима для оформления электронного паспорта транспортного средства на сайте elpts.ru.",
+    description: "Необходима для оформления электронного паспорта транспортного средства на сайте",
+    link: "https://elpts.ru/",
     icon: "Globe",
   },
   {
@@ -91,7 +92,22 @@ export default function JapanDocuments() {
               </div>
               <div>
                 <h2 className="text-base sm:text-lg font-semibold uppercase tracking-wide mb-1">{doc.title}</h2>
-                <p className="text-neutral-400 text-sm sm:text-base leading-relaxed">{doc.description}</p>
+                <p className="text-neutral-400 text-sm sm:text-base leading-relaxed">
+                  {doc.description}
+                  {doc.link && (
+                    <>
+                      {" "}
+                      <a
+                        href={doc.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-white underline hover:text-neutral-300 transition-colors duration-300"
+                      >
+                        {doc.link.replace(/^https?:\/\//, "").replace(/\/$/, "")}
+                      </a>
+                    </>
+                  )}
+                </p>
               </div>
             </motion.div>
           ))}
