@@ -54,9 +54,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Instagram
-                </a>
+                >Запрещенка</a>
                 <a
                   href="https://vk.ru/club237696604"
                   target="_blank"
