@@ -138,6 +138,13 @@ export default function China() {
           >
             Позвонить нам
           </a>
+          <Link
+            to="/china/documents"
+            className="inline-flex items-center gap-2 border border-neutral-600 text-neutral-300 px-8 py-4 text-sm uppercase tracking-wide font-semibold transition-all duration-300 hover:border-white hover:text-white text-center justify-center"
+          >
+            <Icon name="FileText" size={16} />
+            Перечень документов
+          </Link>
         </motion.div>
       </div>
     </div>
