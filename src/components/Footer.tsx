@@ -24,12 +24,12 @@ export default function Footer() {
                 >
                   Автомобили из Китая
                 </Link>
-                <a
-                  href="#korea"
+                <Link
+                  to="/korea"
                   className="inline-block border border-white text-white px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base uppercase tracking-wide font-semibold transition-all duration-300 hover:bg-white hover:text-black"
                 >
                   Автомобили из Южной Кореи
-                </a>
+                </Link>
               </div>
               <div className="flex flex-col gap-1 sm:gap-2">
                 <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Контакты</h3>
