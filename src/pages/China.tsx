@@ -1,6 +1,8 @@
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import Icon from "@/components/ui/icon";
+import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 
 const steps = [
   {
@@ -55,6 +57,8 @@ const steps = [
 ];
 
 export default function China() {
+  const [videoOpen, setVideoOpen] = useState(false);
+
   return (
     <div className="min-h-screen bg-neutral-950 text-white">
       {/* Hero */}
@@ -145,8 +149,27 @@ export default function China() {
             <Icon name="FileText" size={16} />
             Перечень документов
           </Link>
+          <button
+            onClick={() => setVideoOpen(true)}
+            className="inline-flex items-center gap-2 border border-neutral-600 text-neutral-300 px-8 py-4 text-sm uppercase tracking-wide font-semibold transition-all duration-300 hover:border-white hover:text-white text-center justify-center"
+          >
+            <Icon name="PlayCircle" size={16} />
+            Пример отчёта эксперта
+          </button>
         </motion.div>
       </div>
+
+      <Dialog open={videoOpen} onOpenChange={setVideoOpen}>
+        <DialogContent className="max-w-3xl p-2 bg-neutral-950 border-neutral-800">
+          <DialogTitle className="sr-only">Пример отчёта эксперта</DialogTitle>
+          <video
+            src="https://cdn.poehali.dev/projects/c1ddd35b-7831-4583-9ede-f928d7709396/bucket/a73080ef-6cbf-4186-a54d-33b5d040c287.mp4"
+            controls
+            autoPlay
+            className="w-full rounded"
+          />
+        </DialogContent>
+      </Dialog>
     </div>
   );
 }
