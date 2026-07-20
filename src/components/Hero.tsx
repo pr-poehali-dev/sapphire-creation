@@ -19,9 +19,9 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="https://cdn.poehali.dev/projects/c1ddd35b-7831-4583-9ede-f928d7709396/files/8dea38a6-59b6-4099-a711-23888f71080c.jpg"
+          src="https://cdn.poehali.dev/projects/c1ddd35b-7831-4583-9ede-f928d7709396/files/a05d7ba7-149e-4c54-af20-52b544a4d27d.jpg"
           alt="Автомобиль из Японии"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover brightness-125"
         />
       </motion.div>
 
