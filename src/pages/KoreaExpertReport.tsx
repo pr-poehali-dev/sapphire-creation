@@ -164,22 +164,8 @@ export default function KoreaExpertReport() {
           transition={{ duration: 0.5 }}
           className="text-lg sm:text-xl text-neutral-300 leading-relaxed mb-12"
         >
-          Перед покупкой наш эксперт в Южной Корее лично осматривает автомобиль: проверяет техническое состояние, кузов, историю обслуживания и юридическую чистоту. Ниже — пример такого отчёта: видео и фото реального осмотра.
+          Перед покупкой наш эксперт в Южной Корее лично осматривает автомобиль: проверяет техническое состояние, кузов, историю обслуживания и юридическую чистоту. Ниже — пример такого отчёта: фото реального осмотра.
         </motion.p>
-
-        {/* Video */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.1 }}
-          className="mb-16 max-w-3xl"
-        >
-          <video
-            src="https://cdn.poehali.dev/projects/c1ddd35b-7831-4583-9ede-f928d7709396/bucket/a73080ef-6cbf-4186-a54d-33b5d040c287.mp4"
-            controls
-            className="w-full rounded"
-          />
-        </motion.div>
 
         {/* Photos */}
         <motion.div
