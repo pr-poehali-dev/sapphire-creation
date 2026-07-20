@@ -14,6 +14,7 @@ import China from "./pages/China";
 import ChinaDocuments from "./pages/ChinaDocuments";
 import Korea from "./pages/Korea";
 import KoreaDocuments from "./pages/KoreaDocuments";
+import KoreaExpertReport from "./pages/KoreaExpertReport";
 
 const queryClient = new QueryClient();
 
@@ -33,6 +34,7 @@ const App = () => (
           <Route path="/china/documents" element={<ChinaDocuments />} />
           <Route path="/korea" element={<Korea />} />
           <Route path="/korea/documents" element={<KoreaDocuments />} />
+          <Route path="/korea/expert-report" element={<KoreaExpertReport />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
